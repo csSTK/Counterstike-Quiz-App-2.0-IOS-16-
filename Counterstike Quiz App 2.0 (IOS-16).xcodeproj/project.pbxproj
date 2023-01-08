@@ -7,18 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80B812C28DA066D00110AA1 /* DbConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B812B28DA066D00110AA1 /* DbConnection.swift */; };
+		B80B812E28DA340C00110AA1 /* FriendsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B812D28DA340B00110AA1 /* FriendsScreen.swift */; };
+		B80B813228DBB46C00110AA1 /* SearchFriendScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B813128DBB46C00110AA1 /* SearchFriendScreen.swift */; };
+		B853969328DC6309000177DA /* YourFriendsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853969228DC6309000177DA /* YourFriendsScreen.swift */; };
+		B853969728DC6677000177DA /* SwitchAccScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853969628DC6677000177DA /* SwitchAccScreen.swift */; };
+		B853969928DDE154000177DA /* AccHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853969828DDE154000177DA /* AccHomeScreen.swift */; };
+		B853969B28DDEAED000177DA /* AccSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853969A28DDEAED000177DA /* AccSettingsScreen.swift */; };
+		B853969F28DE1FEE000177DA /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853969E28DE1FEE000177DA /* NetworkMonitor.swift */; };
+		B85396A128DE2827000177DA /* NoConnectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85396A028DE2827000177DA /* NoConnectionScreen.swift */; };
+		B85E63AB28DF824A00A7CDF6 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85E63AA28DF824A00A7CDF6 /* ProfileScreen.swift */; };
+		B85E63AD28E0F8F800A7CDF6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85E63AC28E0F8F800A7CDF6 /* Test.swift */; };
 		B8751FA528A55AD4009A3B3C /* Counterstike_Quiz_App_2_0__IOS_16_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8751FA428A55AD4009A3B3C /* Counterstike_Quiz_App_2_0__IOS_16_App.swift */; };
-		B8751FA728A55AD4009A3B3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8751FA628A55AD4009A3B3C /* ContentView.swift */; };
-		B8751FA928A55AD5009A3B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8751FA828A55AD5009A3B3C /* Assets.xcassets */; };
+		B8751FA728A55AD4009A3B3C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8751FA628A55AD4009A3B3C /* StartScreen.swift */; };
 		B8751FAC28A55AD5009A3B3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8751FAB28A55AD5009A3B3C /* Preview Assets.xcassets */; };
+		B892F56728A6DAB40050BDBB /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F56628A6DAB40050BDBB /* CreateAccountScreen.swift */; };
+		B892F56928A6E5860050BDBB /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F56828A6E5860050BDBB /* AboutScreen.swift */; };
+		B892F56B28A6ED0B0050BDBB /* BugReportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F56A28A6ED0B0050BDBB /* BugReportScreen.swift */; };
+		B892F56E28A7BC370050BDBB /* ForgotPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F56D28A7BC370050BDBB /* ForgotPasswordScreen.swift */; };
+		B892F58028A950920050BDBB /* PistolScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F57F28A950920050BDBB /* PistolScreen.swift */; };
+		B892F58228A965F80050BDBB /* HeavyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B892F58128A965F80050BDBB /* HeavyScreen.swift */; };
+		B8B8F50D28A9806E00902FD5 /* RifleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8F50C28A9806E00902FD5 /* RifleScreen.swift */; };
+		B8FDE0B628A55FB5009E23D6 /* QuizScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDE0B528A55FB5009E23D6 /* QuizScreen.swift */; };
+		B8FDE0B828A55FE9009E23D6 /* LearnScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDE0B728A55FE9009E23D6 /* LearnScreen.swift */; };
+		B8FDE0BA28A58CBD009E23D6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDE0B928A58CBD009E23D6 /* HomeScreen.swift */; };
+		B8FDE0BC28A5982C009E23D6 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDE0BB28A5982C009E23D6 /* AccountScreen.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B85E63C728E1DF4F00A7CDF6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B80B812B28DA066D00110AA1 /* DbConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbConnection.swift; sourceTree = "<group>"; };
+		B80B812D28DA340B00110AA1 /* FriendsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsScreen.swift; sourceTree = "<group>"; };
+		B80B813128DBB46C00110AA1 /* SearchFriendScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFriendScreen.swift; sourceTree = "<group>"; };
+		B853969228DC6309000177DA /* YourFriendsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFriendsScreen.swift; sourceTree = "<group>"; };
+		B853969628DC6677000177DA /* SwitchAccScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAccScreen.swift; sourceTree = "<group>"; };
+		B853969828DDE154000177DA /* AccHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccHomeScreen.swift; sourceTree = "<group>"; };
+		B853969A28DDEAED000177DA /* AccSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccSettingsScreen.swift; sourceTree = "<group>"; };
+		B853969E28DE1FEE000177DA /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		B85396A028DE2827000177DA /* NoConnectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionScreen.swift; sourceTree = "<group>"; };
+		B85E63AA28DF824A00A7CDF6 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		B85E63AC28E0F8F800A7CDF6 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		B8751FA128A55AD4009A3B3C /* Counterstike Quiz App 2.0 (IOS-16).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counterstike Quiz App 2.0 (IOS-16).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8751FA428A55AD4009A3B3C /* Counterstike_Quiz_App_2_0__IOS_16_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counterstike_Quiz_App_2_0__IOS_16_App.swift; sourceTree = "<group>"; };
-		B8751FA628A55AD4009A3B3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B8751FA828A55AD5009A3B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8751FA628A55AD4009A3B3C /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		B8751FAB28A55AD5009A3B3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8751FB428A55B1F009A3B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Project-Two Counterstrike Quiz App/Project-Two Counterstrike Quiz App/Assets.xcassets"; sourceTree = "<group>"; };
+		B892F56628A6DAB40050BDBB /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		B892F56828A6E5860050BDBB /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
+		B892F56A28A6ED0B0050BDBB /* BugReportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugReportScreen.swift; sourceTree = "<group>"; };
+		B892F56D28A7BC370050BDBB /* ForgotPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreen.swift; sourceTree = "<group>"; };
+		B892F57F28A950920050BDBB /* PistolScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PistolScreen.swift; sourceTree = "<group>"; };
+		B892F58128A965F80050BDBB /* HeavyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyScreen.swift; sourceTree = "<group>"; };
+		B8B8F50C28A9806E00902FD5 /* RifleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RifleScreen.swift; sourceTree = "<group>"; };
+		B8FDE0B528A55FB5009E23D6 /* QuizScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScreen.swift; sourceTree = "<group>"; };
+		B8FDE0B728A55FE9009E23D6 /* LearnScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnScreen.swift; sourceTree = "<group>"; };
+		B8FDE0B928A58CBD009E23D6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B8FDE0BB28A5982C009E23D6 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +88,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B80B812A28DA064F00110AA1 /* DataBank */ = {
+			isa = PBXGroup;
+			children = (
+				B80B812B28DA066D00110AA1 /* DbConnection.swift */,
+				B853969E28DE1FEE000177DA /* NetworkMonitor.swift */,
+				B85396A028DE2827000177DA /* NoConnectionScreen.swift */,
+			);
+			path = DataBank;
+			sourceTree = "<group>";
+		};
+		B853969428DC6555000177DA /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				B853969228DC6309000177DA /* YourFriendsScreen.swift */,
+				B80B813128DBB46C00110AA1 /* SearchFriendScreen.swift */,
+				B80B812D28DA340B00110AA1 /* FriendsScreen.swift */,
+				B853969828DDE154000177DA /* AccHomeScreen.swift */,
+				B853969A28DDEAED000177DA /* AccSettingsScreen.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		B853969528DC656B000177DA /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B892F56D28A7BC370050BDBB /* ForgotPasswordScreen.swift */,
+				B892F56628A6DAB40050BDBB /* CreateAccountScreen.swift */,
+				B8FDE0BB28A5982C009E23D6 /* AccountScreen.swift */,
+				B85E63AA28DF824A00A7CDF6 /* ProfileScreen.swift */,
+				B85E63AC28E0F8F800A7CDF6 /* Test.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		B8751F9828A55AD4009A3B3C = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +141,9 @@
 		B8751FA328A55AD4009A3B3C /* Counterstike Quiz App 2.0 (IOS-16) */ = {
 			isa = PBXGroup;
 			children = (
+				B8FDE0B428A55FA0009E23D6 /* Screens */,
 				B8751FA428A55AD4009A3B3C /* Counterstike_Quiz_App_2_0__IOS_16_App.swift */,
-				B8751FA628A55AD4009A3B3C /* ContentView.swift */,
-				B8751FA828A55AD5009A3B3C /* Assets.xcassets */,
+				B8751FB428A55B1F009A3B3C /* Assets.xcassets */,
 				B8751FAA28A55AD5009A3B3C /* Preview Content */,
 			);
 			path = "Counterstike Quiz App 2.0 (IOS-16)";
@@ -67,6 +157,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B892F56C28A7BBD90050BDBB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B853969528DC656B000177DA /* Account */,
+				B853969428DC6555000177DA /* Friends */,
+				B853969628DC6677000177DA /* SwitchAccScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B892F57E28A9506C0050BDBB /* LearnPath */ = {
+			isa = PBXGroup;
+			children = (
+				B8FDE0B728A55FE9009E23D6 /* LearnScreen.swift */,
+				B892F57F28A950920050BDBB /* PistolScreen.swift */,
+				B892F58128A965F80050BDBB /* HeavyScreen.swift */,
+				B8B8F50C28A9806E00902FD5 /* RifleScreen.swift */,
+			);
+			path = LearnPath;
+			sourceTree = "<group>";
+		};
+		B8FDE0B428A55FA0009E23D6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B80B812A28DA064F00110AA1 /* DataBank */,
+				B892F57E28A9506C0050BDBB /* LearnPath */,
+				B892F56C28A7BBD90050BDBB /* Login */,
+				B8751FA628A55AD4009A3B3C /* StartScreen.swift */,
+				B8FDE0B528A55FB5009E23D6 /* QuizScreen.swift */,
+				B8FDE0B928A58CBD009E23D6 /* HomeScreen.swift */,
+				B892F56828A6E5860050BDBB /* AboutScreen.swift */,
+				B892F56A28A6ED0B0050BDBB /* BugReportScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +203,7 @@
 				B8751F9D28A55AD4009A3B3C /* Sources */,
 				B8751F9E28A55AD4009A3B3C /* Frameworks */,
 				B8751F9F28A55AD4009A3B3C /* Resources */,
+				B85E63C728E1DF4F00A7CDF6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -111,6 +238,8 @@
 				Base,
 			);
 			mainGroup = B8751F9828A55AD4009A3B3C;
+			packageReferences = (
+			);
 			productRefGroup = B8751FA228A55AD4009A3B3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8751FAC28A55AD5009A3B3C /* Preview Assets.xcassets in Resources */,
-				B8751FA928A55AD5009A3B3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +265,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8751FA728A55AD4009A3B3C /* ContentView.swift in Sources */,
+				B892F58228A965F80050BDBB /* HeavyScreen.swift in Sources */,
+				B80B813228DBB46C00110AA1 /* SearchFriendScreen.swift in Sources */,
+				B8751FA728A55AD4009A3B3C /* StartScreen.swift in Sources */,
+				B80B812E28DA340C00110AA1 /* FriendsScreen.swift in Sources */,
+				B853969728DC6677000177DA /* SwitchAccScreen.swift in Sources */,
+				B85E63AD28E0F8F800A7CDF6 /* Test.swift in Sources */,
+				B892F56B28A6ED0B0050BDBB /* BugReportScreen.swift in Sources */,
+				B8FDE0BA28A58CBD009E23D6 /* HomeScreen.swift in Sources */,
+				B853969928DDE154000177DA /* AccHomeScreen.swift in Sources */,
 				B8751FA528A55AD4009A3B3C /* Counterstike_Quiz_App_2_0__IOS_16_App.swift in Sources */,
+				B80B812C28DA066D00110AA1 /* DbConnection.swift in Sources */,
+				B853969F28DE1FEE000177DA /* NetworkMonitor.swift in Sources */,
+				B8FDE0BC28A5982C009E23D6 /* AccountScreen.swift in Sources */,
+				B892F56928A6E5860050BDBB /* AboutScreen.swift in Sources */,
+				B892F56728A6DAB40050BDBB /* CreateAccountScreen.swift in Sources */,
+				B853969328DC6309000177DA /* YourFriendsScreen.swift in Sources */,
+				B892F56E28A7BC370050BDBB /* ForgotPasswordScreen.swift in Sources */,
+				B85396A128DE2827000177DA /* NoConnectionScreen.swift in Sources */,
+				B8FDE0B828A55FE9009E23D6 /* LearnScreen.swift in Sources */,
+				B8FDE0B628A55FB5009E23D6 /* QuizScreen.swift in Sources */,
+				B8B8F50D28A9806E00902FD5 /* RifleScreen.swift in Sources */,
+				B85E63AB28DF824A00A7CDF6 /* ProfileScreen.swift in Sources */,
+				B853969B28DDEAED000177DA /* AccSettingsScreen.swift in Sources */,
+				B892F58028A950920050BDBB /* PistolScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +412,7 @@
 		B8751FB028A55AD5009A3B3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -270,9 +421,10 @@
 				DEVELOPMENT_TEAM = W3GH3TAN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Counterstike-Quiz-App-2-0--IOS-16--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,6 +443,7 @@
 		B8751FB128A55AD5009A3B3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,9 +452,10 @@
 				DEVELOPMENT_TEAM = W3GH3TAN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Counterstike-Quiz-App-2-0--IOS-16--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
